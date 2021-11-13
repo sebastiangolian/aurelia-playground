@@ -36,6 +36,11 @@ export class App {
         moduleId: PLATFORM.moduleName("todo/pages/todos/todos"),
         name: "todos",
       },
+      {
+        route: "test",
+        moduleId: PLATFORM.moduleName("test/pages/test-page/test-page"),
+        name: "test",
+      },
     ]);
 
     this.router = router;
