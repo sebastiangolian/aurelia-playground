@@ -1,0 +1,16 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "html.suggest.angular1": false,
+  "html.suggest.ionic": false,
+  "files.exclude": {
+    "node_modules": true,
+    "test": true,
+    ".editorconfig": true,
+    ".eslintrc.json": true,
+    ".npmrc": true,
+    "package-lock.json": true,
+    "README.md": true,
+    "tsconfig.json": true,
+    "webpack.config.js": true
+  }
+}
