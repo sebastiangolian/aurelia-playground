@@ -21,7 +21,6 @@ export class ContactManager {
   created() {
     this.api.getContactList().then((contacts) => {
       this.contacts = contacts;
-      //this.contact = contacts[0];
     });
   }
 

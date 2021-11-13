@@ -5,6 +5,6 @@
   <div class="row">
     <contact-list class="col-sm-5 col-md-4" contacts.bind="contacts" selected-id.bind="contact.id" select.call="onSelect($event)"></contact-list>
     <contact-detail if.bind="contact" class="col-sm-7 col-md-8" contact.bind="contact" save.call="onSave($event)" is-requesting.bind="api.isRequesting"></contact-detail>
-    <no-selection class="col-sm-7 col-md-8" if.bind="!contact"></no-selection>
+    <no-selection class="col-sm-7 col-md-8" if.bind="!contact" message="Select contact to edit"></no-selection>
   </div>
 </template>
