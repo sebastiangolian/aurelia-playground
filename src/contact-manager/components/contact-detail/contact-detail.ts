@@ -10,7 +10,7 @@ export class ContactDetail {
   @bindable({ defaultBindingMode: bindingMode.toView }) isRequesting: boolean;
   @bindable save: (contact: Contact) => Contact;
 
-  get canSave() {
+  get canSave(): boolean {
     return (
       this.contact.firstName && this.contact.lastName && !this.isRequesting
     );

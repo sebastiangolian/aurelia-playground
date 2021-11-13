@@ -14,7 +14,7 @@ export class App {
     config.map([
       {
         route: "/",
-        moduleId: PLATFORM.moduleName("todo/components/todos/todos"),
+        moduleId: PLATFORM.moduleName("todo/pages/todos/todos"),
         name: "todos",
       },
       {
@@ -33,7 +33,7 @@ export class App {
       },
       {
         route: "todos",
-        moduleId: PLATFORM.moduleName("todo/components/todos/todos"),
+        moduleId: PLATFORM.moduleName("todo/pages/todos/todos"),
         name: "todos",
       },
     ]);
