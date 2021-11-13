@@ -1,3 +1,14 @@
 <template>
-  xxx
+  <form role="form" submit.delegate="submit(user)">
+    <div class="form-group">
+      <label for="firstName">First Name</label>
+      <input id="firstName" value.two-way="user.firstName" placeholder="first name"></input>
+    </div>
+    <div class="form-group">
+      <label for="lastName">Last Name</label>
+      <input id="lastName" value.two-way="user.lastName" placeholder="last name"></input>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="reset" class="btn btn-dark">Reset</button>
+  </form>
 </template>
